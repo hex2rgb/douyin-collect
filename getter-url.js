@@ -2,8 +2,12 @@ const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
 
-const htmlFilePath = path.join(__dirname, '修行合集.html');
-const outputFilePath = path.join(__dirname, '修行合集.json');
+// 丹道.html
+// 散聊.html
+// 祖边神运传.html
+// 西游记.html
+const htmlFilePath = path.join(__dirname, '胄空行仙传.html');
+const outputFilePath = path.join(__dirname, '胄空行仙传.json');
 
 try {
   const htmlContent = fs.readFileSync(htmlFilePath, 'utf8');
