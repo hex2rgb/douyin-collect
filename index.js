@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 
-const sourceJson = "修行合集.json";
+const sourceJson = "胄空行仙传.json";
 
 // 日志：同时输出到控制台与文件（download.log），并带时间戳
 const logFilePath = path.join(__dirname, 'download.log');
